@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # Define paths
-SRC_DIR="./src"
-DEST_DIR="/var/www/html"
-BACKUP_DIR="/var/www/html_backup"
+SRC_DIR="./app"
+DEST_DIR="/var/www"
+BACKUP_DIR="/var/hello-php/backup-www"
 
 # Ensure script is run with elevated privileges
 if [ "$EUID" -ne 0 ]; then
@@ -29,10 +29,10 @@ cp -r "$SRC_DIR"/* "$DEST_DIR"
 # Set correct permissions
 echo "Setting correct permissions..."
 chown -R www-data:www-data "$DEST_DIR"
-find /var/www/html -type d -exec chmod 755 {} \;
-find /var/www/html -type f -exec chmod 644 {} \;
+find "$DEST_DIR" -type d -exec chmod 755 {} \;
+find "$DEST_DIR" -type f -exec chmod 644 {} \;
 # Support Uploads
-# chmod -R 775 /var/www/html/uploads
+# chmod -R 775 "$DEST_DIR/html/uploads"
 
 
 # Restart web server (if needed)
