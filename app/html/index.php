@@ -6,14 +6,18 @@
     <title>Hello World</title>
 </head>
 <body>
-    <h1>Hello PHP!</h1>
+    <?php echo "<h1>Hello PHP!</h1>"; ?>
     <p>Welcome to the Hello World page with links to a few PHP examples.</p>
     
     <h2>PHP Examples</h2>
     <ul>
-        <li><a href="hello.php">Basic PHP Example</a></li>
-        <li><a href="example2.php">Form Handling in PHP</a></li>
-        <li><a href="example3.php">Connecting to a Database</a></li>
+        <li><a href="example.php">Handling Forms</a></li>
+        <li><a href="example.php">Connecting to Databases</a></li>
+        <li><a href="example.php">Integrating External APIs</a></li>
+        <li><a href="example.php">Building Internal APIs</a></li>
+        <li><a href="example.php">Implementing Logging</a></li>
+        <li><a href="example.php">Using Object-Oriented Programming</a></li>
+        <li><a href="example.php">Using Functional Programming</a></li>
     </ul>
 </body>
 </html>
