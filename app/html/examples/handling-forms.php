@@ -123,6 +123,9 @@ if (isset($_POST["clearResults"])) {
 </button>
 
 <!-- TODO: Include a descirption/tutorial of source code highlighting use of PHP -->
+<hr>
+<h2>Source Code</h2>
+<pre><code><?php echo htmlspecialchars(file_get_contents(__FILE__)); ?></code></pre>
 
 <script>
   document.getElementById("btResetCounter").onclick = e => {
