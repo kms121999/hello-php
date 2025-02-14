@@ -19,6 +19,7 @@ This project contains several PHP examples that demonstrate fundamental web-serv
 
 ## Future Work
 
-- Implement a dynamic PHP-based contact form
-- Add a user authentication example
+- Implement more examples
+- Explore database connections
+- Explore user authentication
 
