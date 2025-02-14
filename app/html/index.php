@@ -11,13 +11,13 @@
     
     <h2>PHP Examples</h2>
     <ul>
-        <li><a href="example.php">Handling Forms</a></li>
+        <li><a href="examples/handling-forms.php">Handling Forms</a></li>
         <li><a href="example.php">Connecting to Databases</a></li>
         <li><a href="example.php">Integrating External APIs</a></li>
         <li><a href="example.php">Building Internal APIs</a></li>
         <li><a href="example.php">Implementing Logging</a></li>
         <li><a href="example.php">Using Object-Oriented Programming</a></li>
-        <li><a href="example.php">Using Functional Programming</a></li>
+        <li><a href="example.php">Creating an App</a></li>
     </ul>
 </body>
 </html>
